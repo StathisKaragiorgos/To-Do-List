@@ -1,1 +1,1 @@
-# To-Do-List
+This project is a simple To-Do List application built using HTML, CSS, and React. Users can add and remove tasks, as well as reorder them using move-up and move-down buttons, making it easy to prioritize daily activities. The interface is clean and responsive, focusing on usability and simplicity. React's state management allows dynamic updates to the task list, providing a smooth and interactive experience. This project showcases practical use of React components, event handling, and CSS styling, along with basic list manipulation features.

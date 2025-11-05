@@ -1,0 +1,93 @@
+body{
+  background-color: rgb(110, 185, 185);
+}
+
+.to-do-list{
+  font-family:'Times New Roman', Times, serif;
+  font-size: 40px;
+}
+
+.add-button{
+  background-color: green;
+  color:white;
+  font-family:'Times New Roman', Times, serif;
+}
+
+.add-button:hover{
+  background-color: rgb(26, 99, 26);
+}
+
+.delete-button{
+  background-color: red;
+  color: white;
+}
+
+.delete-button:hover{
+  background-color: rgb(158, 22, 22);
+}
+
+.up-button{
+  background-color: blue;
+  color: white;
+}
+
+.up-button:hover{
+  background-color: rgb(7, 7, 153)
+}
+
+.down-button{
+  background-color: blue;
+  color: white;
+}
+
+.down-button:hover{
+  background-color: rgb(7, 7, 153)
+}
+
+button{
+  padding: 6px;
+  margin: 2px;
+  font-size: 1.7rem;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+li{
+  background-color: whitesmoke;
+  border: 3px solid black;
+  border-radius: 5%;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  color: black;
+  font-weight: bold;
+}
+
+input{
+  padding: 10px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.5rem;
+}
+
+.text{
+  flex: 1;
+}
+
+h1{
+  color: rgba(164, 64, 245, 0.945); /* Χρώμα κειμένου */
+  -webkit-text-stroke: 2px black; /* Πάχος + χρώμα περιγράμματος */
+}
+
+footer {
+  position: fixed;  
+  bottom: 0;          
+  left: 0;            
+  width: 100%;        
+  text-align: center;  
+  padding: 15px;
+  background-color: whitesmoke;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
